@@ -62,6 +62,4 @@ export const getMovie = async ( args ) => {
       throw new Error(response.json().message);
     }
     return response.json();
-//      .then(res => res.json())
-//      .then(json => json.results);
   };
